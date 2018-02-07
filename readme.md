@@ -13,3 +13,4 @@
 
 1. User wins if player selects 'rock' and other player selects 'scissors.'
 2. User wins if player selects 'paper' and other player selects 'rock.'
+3. User wins if player selects 'scissors' and other player selects 'paper.'
