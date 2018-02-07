@@ -4,9 +4,10 @@ class RPS
     @game = game
   end
 
-  def wins?(player1, scissors)
+  def wins?(player1, player2)
     player1 = @game
-    player1 == "rock"
+    ((player1 == "rock") & (player2 == "scissors")) |
+    ((player1 == "paper") & (player2 == "rock"))
   end
 
 end
