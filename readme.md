@@ -13,13 +13,13 @@
 1. User wins if player 1 selects 'rock' and other player selects 'scissors.'
 2. User wins if player 1 selects 'paper' and other player selects 'rock.'
 3. User wins if player 1 selects 'scissors' and other player selects 'paper.'
-4. User ties if both players (player 1 and player 2) select the same item ('paper' and 'paper').
+4. User ties if both players (player 1 and Computer) select the same item ('paper' and 'paper').
 5. User loses if player 1 selects 'scissors' and other player selects 'rock.'
 6. User loses if player 1 selects 'rock' and other player selects 'paper.'
 7. User loses if player 1 selects 'paper' and other player selects 'scissors.'
-8. Terminal input for player 1 and player 2 to select items.
+8. Terminal input for player 1 and Computer to select items.
 9. Terminal output for with results.
-10. Change player 2 into a computer. (not completed)
+10. Change player 2 into a computer.
 11. Keep track of "rock, paper, scissors" win/ties/losses record. (not completed)
 
 ## Setup/Installation Requirements
@@ -30,6 +30,9 @@
 * `$ bundle install`
 ### Run rspec in the terminal's home directory path
 * `rock_paper_scissors $ rspec`
+
+### Play the game using the following command in the terminal's home directory path
+* `ruby lib/rock_paper_scissors.rb`
 
 ## Technologies Used
 * Ruby

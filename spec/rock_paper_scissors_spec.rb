@@ -29,14 +29,18 @@ describe('rock_paper_scissors') do
   end
   it('selects player 2 if rock is the object and paper is the argument') do
     game = RockPaperScissors.new('rock', 'paper')
-    expect(game.wins?('rock', 'paper')).to(eq('Player 2 wins'))
+    expect(game.wins?('rock', 'paper')).to(eq('Computer wins'))
   end
   it('selects player 2 if paper is the object and scissors is the argument') do
     game = RockPaperScissors.new('paper', 'scissors')
-    expect(game.wins?('paper', 'scissors')).to(eq('Player 2 wins'))
+    expect(game.wins?('paper', 'scissors')).to(eq('Computer wins'))
   end
   it('selects player 2 if scissors is the object and rock is the argument') do
     game = RockPaperScissors.new('scissors', 'rock')
-    expect(game.wins?('scissors', 'rock')).to(eq('Player 2 wins'))
+    expect(game.wins?('scissors', 'rock')).to(eq('Computer wins'))
+  end
+  it('warns player 1 if the item is misspelled') do
+    game = RockPaperScissors.new('cat', 'rock')
+    expect(game.wins?('cat', 'rock')).to(eq('Oh boy! Did someone dropped their item or misspelled an item?'))
   end
 end
