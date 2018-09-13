@@ -17,9 +17,10 @@
 5. User loses if player 1 selects 'scissors' and other player selects 'rock.'
 6. User loses if player 1 selects 'rock' and other player selects 'paper.'
 7. User loses if player 1 selects 'paper' and other player selects 'scissors.'
-8. Terminal input for player 1 to select item. (not completed)
-9. Terminal output for player 1 results. (not completed, puts command issue)
-10. Keep track of "rock, paper, scissors" win/ties/losses record. (not completed)
+8. Terminal input for player 1 and player 2 to select items.
+9. Terminal output for with results.
+10. Change player 2 into a computer. (not completed)
+11. Keep track of "rock, paper, scissors" win/ties/losses record. (not completed)
 
 ## Setup/Installation Requirements
 ### GitHub repository: https://github.com/r-craig73/rock_paper_scissors
