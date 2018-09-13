@@ -25,7 +25,7 @@ end
 puts 'Player 1, pick your item: rock, paper or scissors'
 @p1 = gets.chomp
 
-items = %w[rock paper scissors]
+items = %w[rock paper scissors] # similar to ['rock', 'paper', 'scissors']
 random_item = items.sample
 puts "Computer selects #{random_item}"
 @p2 = random_item
