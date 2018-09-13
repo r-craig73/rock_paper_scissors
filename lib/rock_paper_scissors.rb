@@ -1,14 +1,6 @@
 #!/usr/bin/env ruby
 require('pry')
 
-puts "Player 1, pick your item: rock, paper or scissors"
-@p1 = gets.chomp
-
-items = ['rock', 'paper', 'scissors']
-random_item = items.sample
-puts "Computer selects #{random_item}"
-@p2 = random_item
-
 class RockPaperScissors
   def initialize(p1, p2)
     @p1 = p1
@@ -29,6 +21,14 @@ class RockPaperScissors
     end
   end
 end
+
+puts 'Player 1, pick your item: rock, paper or scissors'
+@p1 = gets.chomp
+
+items = %w[rock paper scissors]
+random_item = items.sample
+puts "Computer selects #{random_item}"
+@p2 = random_item
 
 game = RockPaperScissors.new(@p1, @p2)
 the_end = game.wins?(@p1, @p2)
