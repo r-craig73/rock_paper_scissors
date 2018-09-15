@@ -23,7 +23,7 @@
 11. Keep track of "rock, paper, scissors" win/ties/losses record. (not completed)
 
 ## Setup/Installation Requirements
-### GitHub repository: https://github.com/r-craig73/rock_paper_scissors
+### Clone GitHub repository
 ### Install Ruby and Gems
 * `$ gem install rspec`
 * `$ gem install pry`
