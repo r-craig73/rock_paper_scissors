@@ -20,17 +20,17 @@ describe('rock_paper_scissors') do
 
   it('returns a tie if player 1 scissors matches the object and argument') do
     game = RockPaperScissors.new('scissors', 'scissors')
-    expect(game.wins?('scissors', 'scissors')).to(eq('This is a tie'))
+    expect(game.wins?('scissors', 'scissors')).to(eq("How about that? It's a tie!"))
   end
 
   it('returns a tie if player 1 paper matches the object and argument') do
     game = RockPaperScissors.new('paper', 'paper')
-    expect(game.wins?('paper', 'paper')).to(eq('This is a tie'))
+    expect(game.wins?('paper', 'paper')).to(eq("How about that? It's a tie!"))
   end
 
   it('returns a tie if player 1 rock matches the object and argument') do
     game = RockPaperScissors.new('rock', 'rock')
-    expect(game.wins?('rock', 'rock')).to(eq('This is a tie'))
+    expect(game.wins?('rock', 'rock')).to(eq("How about that? It's a tie!"))
   end
 
   it('selects player 2 if rock is the object and paper is the argument') do
