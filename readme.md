@@ -20,7 +20,7 @@
 8. Terminal input for player 1 and Computer to select items.
 9. Terminal output for with results.
 10. Change player 2 into a computer.
-11. Keep track of "rock, paper, scissors" win/ties/losses record. (not completed)
+11. ~~Keep track of "rock, paper, scissors" win/ties/losses record. (not completed)~~
 
 ## Setup/Installation Requirements
 ### Clone GitHub repository
