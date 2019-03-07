@@ -1,13 +1,13 @@
 # rock_paper_scissors
 
-#### by Ron Craig, updated 2/7/2018
+#### by Ron Craig, updated 2/7/2018, March 2019
 
 ## Description
 ### Generate the 'rock, paper, scissors' game using Ruby, Gem & BBD coding
 
 ### Create a method to handle the different combination of plays and write specs for all possible combination of plays.
 
-## After all specs are passing, build a script a player can use to play the game (two player game or play against the computer).
+## After specs are passing, build a script for a player to play against the computer (computer will select an item after 2 seconds).
 
 ## Specifications
 1. User wins if player 1 selects 'rock' and other player selects 'scissors.'
@@ -42,4 +42,4 @@
 ## License
 ### MIT License
 
-Copyright (c) 2018 **_Ron Craig (ron.craig@comcast.net)_**
+Copyright (c) 2019 **_Ron Craig (ron.craig@comcast.net)_**
